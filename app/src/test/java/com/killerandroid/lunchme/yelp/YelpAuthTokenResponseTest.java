@@ -19,7 +19,7 @@ public class YelpAuthTokenResponseTest {
         YelpAuthTokenResponse response = YelpAuthTokenResponse.parse(testResponse);
         assertThat(response.accessToken, is("5TGy8YZIBC0saYaqj_19Rc9OREB-9hMiv-19kO9HyUmQHudY3bCG5XRZ5PszDxC3THUzw0eai1-pXDTm23Nz72tDaxSadUAzGyy3HvtxSJbMinG6K9lvJj-JIaPEWHYx"));
         assertThat(response.expiresIn, is(15551999L));
-        assertThat(response.token_type, is("Bearer"));
+        assertThat(response.tokenType, is("Bearer"));
     }
 
 }
