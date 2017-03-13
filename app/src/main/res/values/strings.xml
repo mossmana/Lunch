@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lunch Me</string>
+    <string name="title_activity_lunch">Lunch?</string>
+    <string name="shared_prefs_name">com.killerandroid.lunchme.prefs</string>
+    <string name="permission_required">Permission required</string>
+    <string name="instructions">Tap on the marker to show the toolbar.\nTap on the info window to open the Yelp details.\nNote: Location will only update automatically once per day.</string>
+    <string name="action_refresh">Refresh</string>
+</resources>
